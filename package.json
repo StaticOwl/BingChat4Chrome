@@ -1,27 +1,24 @@
 {
-  "name": "bingchat4chrome",
+  "name": "chrome-extension",
   "version": "1.0.0",
-  "description": "Local Extension for Bing Chat Extension in chrome",
-  "main": "index.js",
+  "description": "",
+  "private": true,
   "scripts": {
-    "test": "test"
+    "build": "parcel build src/manifest.json --config @parcel/config-webextension"
   },
-  "repository": {
-    "type": "git",
-    "url": "BingChat4Chrome"
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/config-webextension": "^2.9.3",
+    "@types/chrome": "^0.0.242",
+    "buffer": "^6.0.3",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10",
+    "url": "^0.11.1",
+    "bing-chat": "^0.2.0"
   },
   "dependencies": {
-    "typescript": "^4.0.8",
-    "@types/chrome": "^0.0.230"
-  },
-  "keywords": [
-    "Bing",
-    "Chat",
-    "Bing",
-    "Chrome",
-    "Extension",
-    "Local"
-  ],
-  "author": "StaticOwl",
-  "license": "ISC"
+    "@mlc-ai/web-llm": "^0.2.8",
+    "progressbar.js": "^1.1.0"
+  }
 }
