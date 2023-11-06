@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "BingChat4Chrome Extension",
+  "version": "1.0",
+  "description": "BingChat4Chrome Extension",
+  "background": {
+    "service_worker": "dist/background.js"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+"action": {
+    "default_popup": "src/popup/popup.html"
+  }
+}

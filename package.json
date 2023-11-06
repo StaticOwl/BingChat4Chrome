@@ -1,0 +1,27 @@
+{
+  "name": "bingchat4chrome",
+  "version": "1.0.0",
+  "description": "Local Extension for Bing Chat Extension in chrome",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "BingChat4Chrome"
+  },
+  "dependencies": {
+    "typescript": "^4.0.8",
+    "@types/chrome": "^0.0.230"
+  },
+  "keywords": [
+    "Bing",
+    "Chat",
+    "Bing",
+    "Chrome",
+    "Extension",
+    "Local"
+  ],
+  "author": "StaticOwl",
+  "license": "ISC"
+}
